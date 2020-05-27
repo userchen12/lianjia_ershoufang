@@ -7,7 +7,7 @@ import json
 def get_location(name):
     bdurl = 'http://api.map.baidu.com/geocoding/v3/?address='
     output = 'json'
-    ak = 'bG6qOxHiMGcHHh6lH7WNDgtpDrtOee0I'
+    ak = ak
     '''
     此处和原链接不同，一是删去了callback参数，删去该参数后返回的才是json格式，
     二是百度API接口更新到V3版本了，格式有了改变
